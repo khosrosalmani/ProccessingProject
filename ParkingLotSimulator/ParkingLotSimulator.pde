@@ -39,6 +39,7 @@ void setup() {
       stall_sections_array[counter].drawSection(section_x_pos, section_y_pos, stall_width, stall_height);
       section_x_pos=section_x_pos+ vertical_street_width+ each_section_columns*stall_width ;
       counter++;
+      println(counter);
     }
     section_x_pos=delta_width+20;
     section_y_pos = section_y_pos + horizontal_street_height + each_section_rows* stall_height ;
