@@ -1,20 +1,26 @@
+// Screen Size DO NOT FORGET to change the screen size into size() too!!!
 final int screen_width=900;
 final int screen_height=600;
 
+// The space between borders in the screen such the space between green and gray border
 final int delta_height=20;
 final int delta_width=40;
 
+// Number of rows and columns in THE PARKING.
 final int num_of_parking_rows= 4 ;
 final int num_of_parking_columns= 2 ;
 final int num_of_parking_sections=num_of_parking_rows * num_of_parking_columns;
 ParkingStallSection[] stall_sections_array = new ParkingStallSection[num_of_parking_sections];  
 
+// Number of rows and columns in each parking SECTION
 final int each_section_rows = 2;
 final int each_section_columns = 5;
 
+// Width and Height for each parking lot
 final int stall_width=74;
 final int stall_height=50;
 
+// the width of vertical and horizontal streets
 final int vertical_street_width= 40;
 final int horizontal_street_height= 40;
 
